@@ -1,0 +1,26 @@
+{
+  "name": "r-web3-labs",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "deploy:sepolia": "hardhat ignition deploy ./ignition/modules/RahataCoin.ts --network sepolia"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0",
+    "ts-node": ">=8.0.0",
+    "typescript": ">=4.5.0",
+    "@types/node": ">=18.0.0",
+    "@types/mocha": ">=9.1.0",
+    "chai": "^4.2.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.4.5"
+  }
+}
